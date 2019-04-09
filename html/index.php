@@ -7,13 +7,10 @@
   <body>
     <ul>
       <li>
-        <a href="./sql/login">
-          SQL injection
+        <a href="./login">
+          Go
         </a>
-      <li>
-        <a href="./xss">
-          XSS
-        </a>
+      </li>
     </ul>
   </body>
 </html>

@@ -14,6 +14,7 @@ services:
       - mysql-server
   # DB
   mysql-server:
+    container_name: mysql-server
     image: mysql:5.6
     volumes:
       - './sql:/docker-entrypoint-initdb.d'

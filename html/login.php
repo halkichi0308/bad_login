@@ -33,14 +33,14 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
           $_SESSION["NAME"] = $key;
         }
         session_regenerate_id();
-        header('Location: ./mypage');
+        header('Location: ./auth');
         exit;
       }
 
       return true;
     }else{
       $_SESSION['err'] = 3;
-      header('Location: ./mypage');
+      header('Location: ./auth');
       exit;
     }
 
